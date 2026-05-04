@@ -1,0 +1,24 @@
+{
+  "name": "create-oberry",
+  "version": "0.0.0",
+  "description": "cli for creating oBerry projects",
+  "type": "module",
+  "bin": {
+    "create-oberry": "./index.js"
+  },
+  "scripts": {
+    "plop": "plop"
+  },
+  "files": [
+    "index.js",
+    "plopfile.js",
+    "templates"
+  ],
+  "keywords": [],
+  "author": "Radosław Kaczmarczyk",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.1",
+  "dependencies": {
+    "plop": "^4.0.5"
+  }
+}
