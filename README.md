@@ -1,6 +1,6 @@
 # create-oberry
 
-a CLI for creating oBerry projects.
+a CLI for creating [oBerry](https://github.com/radeqq007/oBerry) projects.
 
 ## Usage
 
