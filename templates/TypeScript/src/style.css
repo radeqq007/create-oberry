@@ -1,0 +1,67 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #FF0468;
+  --secondary: #37ED00;
+  --background: #121212;
+  --card-background: #1a1a1a;
+  --foreground: #fefefe;
+}
+
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+img {
+  height: 5rem;
+}
+
+#counter {
+  text-align: center;
+  background-color: var(--card-background);
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#counter-value {
+  font-size: 3rem;
+  color: var(--foreground);
+  transition: color 0.2s ease-in-out;
+}
+
+#bittons {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  font-size: 1.5rem;
+  height: 3rem;
+  aspect-ratio: 1 / 1;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--primary);
+  color: var(--foreground);
+  cursor: pointer;
+  transition: scale 0.2s ease;
+
+  &:hover {
+    scale: 1.06;
+  }
+}
