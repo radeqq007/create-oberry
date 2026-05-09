@@ -16,9 +16,9 @@ $effect(() => {
 });
 
 $("#increment-btn").on("click", () => {
-  count(count() + 1);
+  count(prev => prev + 1);
 });
 
 $("#decrement-btn").on("click", () => {
-  count(count() - 1);
+  count(prev => prev - 1);
 });
